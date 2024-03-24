@@ -190,6 +190,10 @@ function heirloomShieldToEquip(mapType, swapLooms = false, hdCheck = true, sendi
 		if (getPageSetting('heirloomDefense') !== 'undefined') return 'heirloomDefense';
 	}
 
+	if (swapLooms && !game.global.fighting && !sendingArmy && newArmyRdy() && game.global.universe === 2) {
+		if (getPageSetting('heirloomPrismatic') !== 'undefined') return 'heirloomPrismatic';
+	}
+
 	const currChallenge = game.global.challengeActive.toLowerCase();
 
 	//Identify the swap zone for shield swapping.
@@ -340,6 +344,7 @@ function heirloomSwapping(sendingArmy = false) {
 
 	if (getPageSetting('heirloomShield')) {
 		const shield = heirloomShieldToEquip(mapType, true, true, sendingArmy);
+	
 		if (shield) heirloomEquip(shield, 'Shield');
 	}
 
