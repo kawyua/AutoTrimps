@@ -1,8 +1,10 @@
-# AutoTrimps - SadAugust Fork
+# AutoTrimps - kawyua Fork
 
 # Current Version - Ongoing Development!
 
--   SadAugust Fork. All changes made by SadAugust using Zorn192/GenBTC as base. Currently up-to-date with patch 5.9.2.
+-   kawyua Fork. All changes made by SadAugust/Zorn192/GenBTC as base. Currently up-to-date with patch 5.9.2.
+-   Placeholder for option changes
+-   
 
 # AT Script Installation
 
@@ -14,7 +16,7 @@ https://www.tampermonkey.net/
 
 Step 2:
 
-Click this link: https://github.com/SadAugust/AutoTrimps/raw/main/userFiles/AutoTrimps.user.js
+Click this link: https://github.com/kawyua/AutoTrimps/raw/main/userFiles/AutoTrimps.user.js
 
 If clicking the link does not work, copy the contents of user.js into a new script inside tampermonkey.
 
@@ -29,7 +31,7 @@ function injectScript(id, src) {
 	document.head.appendChild(script);
 }
 
-injectScript('AutoTrimps-SadAugust', 'https://SadAugust.github.io/AutoTrimps/AutoTrimps2.js');
+injectScript('AutoTrimps-kawyua', 'https://kawyua.github.io/AutoTrimps/AutoTrimps2.js');
 ```
 
 Press F12 inside the game, this opens the console, and paste the text into it and hit enter, this will load the script. You will have to do this everytime you refresh the game though so I recommend getting tampermonkey to do it for you!
@@ -41,7 +43,7 @@ Configure settings. Will NOT work as intended with default settings.
 ## Steam
 
 Step 1:
-Go to this link to open the mods.js file: <a href="https://github.com/SadAugust/AutoTrimps/raw/main/userFiles/mods.js">mods.js</a>  
+Go to this link to open the mods.js file: <a href="https://github.com/kawyua/AutoTrimps/raw/main/userFiles/mods.js">mods.js</a>  
 Then, right click the Raw button, hit Save link as, and save the mods.js file somewhere to your computer where you can find it, like desktop.  
 ![Download mods.js](https://i.imgur.com/opuO6yd.png)
 
